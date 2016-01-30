@@ -33,106 +33,184 @@ h2 {
     margin: 0 auto;
     padding: 10px;
 }
+
 .main-image{
     width: 140px;
     float: left;
 }
+
 .main-navigation{
     width: 560px;
     float: left;
 }
+
 .user-block{
     width: 100px;
     float: right;
 }
+
 .top-navigation{
     margin-bottom: 55px;
 
 }
+
 .slide-property{
     width: 380px;
     float: left;
     padding-bottom: 80px;
 }
+
 .slider-nav{
     width: 60px;
     float: left;
     padding-left: 20px;
 }
+
 .header-slider{
     margin-bottom: 160px;
     height: 300px;
 }
+
 .features-blocks{
     width: 240px;
 }
+
 .first-block{
     float: left;
     padding-right: 80px;
 }
+
 .second-block{
     float: left;
 }
+
 .third-block{
     float: right;
 }
+
 .features{
     margin-bottom: 140px;
 }
+
 .we-from{
     width: 620px;
     float: left;
     padding-right: 20px;
 }
+
 .logo{
     width: 240px;
     float: right;
 }
+
 .what-make{
     width: 620px;
     float: left;
     padding-right: 15px; 
 }
+
 .how-work{
     width: 240px;
     float: right;
 }
+
 .block-top {
     margin-bottom: 40px;
 }
+
 .block-bottom{
     margin-bottom: 110px;
 }
+
 .glukhanko{
     width: 240px;
     float: left;
     padding-right: 80px;
 }
+
 .htmlacademy{
    width: 240px; 
    float: left;
 }
+
 .barbershop{
    width: 240px; 
    float: right;
 }
+
 .links{
     margin-bottom: 115px;
 }
+
 .google-maps{
     width: 100%;
     height: 420px;
-
 }
-.map-adress{
+    
+.top-map{
+    margin-top: -420px;
+    position: relative;
+    padding-top: 90px;
     width: 250px;
 }
+
 .footer-social{
     width: 240px;
     float: left;
     padding-right: 60px;
 }
+
 .footer-info{
     width: 580px;
     float: right;
+}
+
+.welcome{
+    width: auto;
+    margin-bottom: 160px; 
+}
+
+.filters{
+    width: 240px;
+    float: left;
+    padding-right: 60px;
+}
+
+.content{
+    width: 580px;
+    float: right;
+}
+
+.sort-form{
+    margin-bottom: 20px;
+}
+
+.sort{
+    width: 480px;
+    margin-right: 20px;
+    float: left;
+}
+
+.sort-button{
+    width: 80px;
+    float: right;
+}
+
+.features-catalogue{
+    float: left;
+    width: 240px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.features-catalogue:nth-child(2n) {
+  margin-right: 0;
+}
+
+.paginator{
+    margin-bottom: 80px;
+}
+
+.main-footer{
+    margin-top: 70px;
 }
