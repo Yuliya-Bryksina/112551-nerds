@@ -56,7 +56,6 @@ h2 {
 
 .slide-property{
     width: 380px;
-    padding-bottom: 80px;
 }
 
 .slider-nav{
@@ -119,20 +118,20 @@ h2 {
     margin-bottom: 110px;
 }
 
-.glukhanko{
-    width: 33%;
+.nets-class:nth-child(1){
+    width: calc(100% / 3);
     float: left;
     text-align: left;
 }
 
-.htmlacademy{
-   width: 33%; 
+.nets-class:nth-child(2){
+   width: calc(100% / 3); 
    float: left;
    text-align: center;
 }
 
-.barbershop{
-   width: 33%; 
+.nets-class:nth-child(3){
+   width: calc(100% / 3); 
    float: right;
    text-align: right;
 }
