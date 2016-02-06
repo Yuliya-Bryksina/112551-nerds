@@ -4,6 +4,9 @@ body {
     color: #283136;
     font-weight: normal;
     font-family: "Roboto", Arial, sans-serif;
+    min-width: 1200px;
+    text-transform: uppercase;
+
 }
 
 h1 {
@@ -37,16 +40,20 @@ h2 {
 .main-image{
     width: 140px;
     float: left;
+    padding-top: 30px;
 }
 
 .main-navigation{
-    width: 560px;
+    width: 640px;
     float: left;
+    font-size: 0px;
+    text-align: right;
 }
 
 .user-block{
     width: 100px;
     float: right;
+    font-size: 0px;
 }
 
 .top-navigation{
@@ -225,4 +232,32 @@ h2 {
 
 .main-footer{
     margin-top: 70px;
+}
+
+.main-navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 30px;
+  
+}
+
+.main-navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 60px 23px;
+
+
+}
+.user-block a{
+ text-decoration: none;
+    display: block;
+    padding-top: 60px;
+    font-size: 14px; 
 }
