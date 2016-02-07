@@ -95,12 +95,12 @@ h2 {
 }
 
 .top-navigation{
-    margin-bottom: 55px;
+    margin-bottom: 45px;
 
 }
 
 .slide-property{
-    width: 380px;
+    width: 880px;
 }
 
 .slider-nav{
@@ -109,7 +109,9 @@ h2 {
 }
 
 .header-slider{
-    height: 300px;
+    min-height: 310px;
+    width: 880px;
+    position: relative;
 }
 
 .features-blocks{
@@ -317,4 +319,72 @@ h2 {
   background-position: -5px -36px;
   position: absolute;
   background-image: url("../img/sprite.png");
+}
+
+.user-block:hover::before {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+  left:5px;
+  top:57px;
+  background-position: -5px -61px;
+  position: absolute;
+  background-image: url("../img/sprite.png");
+}
+
+.main-navigation a:hover{
+    color:#fb565a; 
+}
+
+.user-block:hover a{
+    color:#fb565a; 
+}
+
+.image-slide-first{
+    min-height: 310px;
+}
+
+.slide-property{
+    height: 310px;
+    display: none;
+}
+
+.slider-container{
+    position: relative;
+}
+
+.image-slide-first{
+  background: url("../img/computer-index.png") no-repeat;
+  background-position: top right; 
+}
+
+.image-slide-second{
+  background: url("../img/calc-index.png") no-repeat;
+  background-position: top right; 
+}
+
+.image-slide-thrid{
+  background: url("../img/robot-index.png") no-repeat;
+  background-position: top right; 
+}
+
+.slide-property p,h2{
+    max-width: 480px;
+
+}
+
+.main-header{
+    background: #eeeeee;
+    margin-bottom: 80px;
+}
+
+input[type="radio"]#SlideOne-id:checked ~ .slider-container .image-slide-first,
+input[type="radio"]#SlideTwo-id:checked ~ .slider-container .image-slide-second,
+input[type="radio"]#SlideThree-id:checked ~ .slider-container .image-slide-thrid{
+  display: block;
+}
+
+.category-radio{
+    
 }
