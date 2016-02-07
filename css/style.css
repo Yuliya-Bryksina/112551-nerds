@@ -132,13 +132,18 @@ h2 {
 }
 
 .features{
-    margin-bottom: 140px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.about-us{
+    padding-top: 60px;
 }
 
 .we-from{
-    width: 620px;
+    width: 590px;
     float: left;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .logo{
@@ -163,24 +168,40 @@ h2 {
 
 .block-bottom{
     margin-bottom: 110px;
+
 }
 
 .nets-class:nth-child(1){
     width: calc(100% / 3);
     float: left;
     text-align: left;
+    opacity: 0.2;
 }
 
 .nets-class:nth-child(2){
    width: calc(100% / 3); 
    float: left;
    text-align: center;
+   opacity: 0.2;
 }
 
 .nets-class:nth-child(3){
    width: calc(100% / 3); 
    float: right;
    text-align: right;
+   opacity: 0.2;
+}
+
+.nets-class:nth-child(1):hover{
+    opacity: 1;
+}
+
+.nets-class:nth-child(2):hover{
+    opacity: 1;
+}
+
+.nets-class:nth-child(3):hover{
+    opacity: 1;
 }
 
 .links{
@@ -201,6 +222,7 @@ h2 {
     position: relative;
     padding-top: 90px;
     width: 250px;
+    
 }
 
 .footer-social{
@@ -490,5 +512,110 @@ background: #efc84a;
 
 .features-blocks p{
     font-size: 15px;
-    
+
 }
+.features-blocks .red-btn:hover{
+    background:#d6494d;
+}
+
+.features-blocks .green-btn:hover{
+background: #01a25e;
+}
+
+.features-blocks .yellow-btn:hover{
+background: #d6ae2c;
+}
+
+.we-from-level{
+    font-weight: 500;
+}
+
+.img-nerds{
+    margin-bottom: 30px;
+}
+
+.we-from h1{
+    margin: 0px;
+    padding-top: 22px; 
+}
+
+.since{
+    width: 240px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+}
+.since::before{
+  content: "";
+
+  width: 65px;
+  height: 2px;
+  background: #eeeeee;
+  position: absolute;
+  left: 0;
+  top:50%;   
+}
+.since::after{
+  content: "";
+
+  width: 65px;
+  height: 2px;
+  background: #eeeeee;
+  position: absolute;
+  right:0;
+  top:50%;   
+}
+
+.img-nerds{
+    width: 240px;
+    display: inline-block;
+    text-align: center;
+}
+.how-work ul{
+    padding:0;
+    margin: 0;
+
+}
+
+.what-make ul{
+    padding:0;
+    margin: 0;
+
+}
+
+.list-class{
+    position: relative;
+    list-style: none;
+    padding-left:35px;
+    margin-top: 30px;
+
+}
+.list-class::before{
+    content: "";
+
+  width: 25px;
+  height: 2px;
+  background: #fb565a;
+  position: absolute;
+  left:0;
+  top:50%; 
+}
+
+.bottom-string{
+    text-transform: uppercase;
+}
+
+.what-make span{
+    text-transform: uppercase;
+}
+
+.how-work span{
+    text-transform: uppercase;
+}
+.map-adress{
+    background: white;
+    width: 240px;
+}
+
+
