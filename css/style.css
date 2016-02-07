@@ -425,44 +425,70 @@ input{
     width: 1;
     height: 1;
 }
+.slider-nav{
+    position:absolute;
+    bottom:95px;
+    left:50%;
+    width:200px;
+    height:10px;
+    margin-left:-100px;
+    text-align:center;
+    z-index:1000;
+}
+.slider-nav label{
+    display:inline-block;
+    width:4px;
+    height:4px;
+    margin:0 3px;
+    background:white;
+    border:3px solid white;
+    vertical-align:top;
+    border-radius:50%;
+    cursor:pointer;
+}
 
+#SlideOne-id:checked ~ .slider-nav label[for="SlideOne-id"],
+#SlideTwo-id:checked ~ .slider-nav label[for="SlideTwo-id"],
+#SlideThree-id:checked ~ .slider-nav label[for="SlideThree-id"] { 
+    background:#c1c1c1;
+}
 
-label {
+#SlideOne-id:checked ~ .image-slide-first { 
+    display: block;
+}
+#SlideTwo-id:checked ~ .image-slide-second { 
+    display: block;
+}
+#SlideThree-id:checked ~ .image-slide-thrid { 
+    display: block;
+}
+.features-blocks .order-button{
+    width: 140px;
+    padding-top:13px;
+    padding-bottom: 13px;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
     display: inline-block;
-    cursor: pointer;
-    position: relative;
-    padding-left: 25px;
-    margin-right: 15px;
-    font-size: 13px;
-}
-
-input[type=radio] {
-    display: none;
-}
-
-label:before {
-    content: "";
-    display: inline-block;
- 
-    width: 16px;
-    height: 16px;
- 
-    margin-right: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 1px;
-    background-color: #aaa;
-}
-
-.slider-nav label:before {
-    border-radius: 8px;
-}
-
-input[type=radio]:checked + label:before {
-    content: "\2022";
-    color: #f3f3f3;
-    font-size: 30px;
     text-align: center;
-    line-height: 18px;
 }
-/*комментарий*/
+
+.features-blocks .red-btn{
+background: #fb565a;
+}
+
+.features-blocks .green-btn{
+background: #00ca74;
+}
+
+.features-blocks .yellow-btn{
+background: #efc84a;
+}
+
+.features-blocks p{
+    font-size: 15px;
+    
+}
