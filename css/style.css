@@ -5,7 +5,7 @@ body {
     font-weight: normal;
     font-family: "Roboto", Arial, sans-serif;
     min-width: 1200px;
-    text-transform: uppercase;
+    
 
 }
 .sprite {
@@ -286,6 +286,7 @@ h2 {
   font-size: 14px;
   line-height: 1;
   margin-right: 46px;
+  text-transform: uppercase;
   
 }
 
@@ -304,6 +305,7 @@ h2 {
     line-height: 1;
     margin-top: 60px;
     color: black;
+    text-transform: uppercase;
 }
 .main-navigation li:last-child{
     margin-right: 0px;
@@ -370,7 +372,7 @@ h2 {
 }
 
 .slide-property p,h2{
-    max-width: 480px;
+    max-width: 460px;
 
 }
 
@@ -385,6 +387,81 @@ input[type="radio"]#SlideThree-id:checked ~ .slider-container .image-slide-thrid
   display: block;
 }
 
-.category-radio{
-    
+.slide-property p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.slide-property .button-more{
+    text-decoration: none;
+    width: 240px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    background: #fb565a;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.slide-property .button-more:hover{
+    background:#d6494d;
+}
+
+.two-level{
+    font-size: 36px;
+}
+/*Скрываем инпуты*/
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 1;
+    height: 1;
+}
+
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label:before {
+    content: "";
+    display: inline-block;
+ 
+    width: 16px;
+    height: 16px;
+ 
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #aaa;
+}
+
+.slider-nav label:before {
+    border-radius: 8px;
+}
+
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #f3f3f3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
 }
