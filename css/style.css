@@ -17,32 +17,33 @@ body {
 .sprite--icon-instagramm {
     width: 21px;
     height: 21px;
-    background-position: -5px -5px;
+    background-position: -30px -30px;
 }
 
 .sprite-icon-basket {
     width: 15px;
     height: 15px;
-    background-position: -5px -36px;
+    background-position: -30px -111px;
 }
 
 .sprite-icon-basket-copy-3 {
     width: 15px;
     height: 15px;
-    background-position: -5px -61px;
+    background-position: -30px -186px;
 }
 
 .sprite-icon-facebook {
     width: 12px;
     height: 22px;
-    background-position: -5px -86px;
+    background-position: -30px -261px;
 }
 
 .sprite-icon-vk {
     width: 26px;
     height: 15px;
-    background-position: -5px -118px;
+    background-position: -30px -343px;
 }
+
 
 h1 {
 	font-size: 36px; 
@@ -222,12 +223,12 @@ h2 {
     position: relative;
     padding-top: 90px;
     width: 250px;
-    
 }
 
 .footer-social{
     width: 240px;
     float: left;
+    position: relative;
 }
 
 .footer-info{
@@ -340,7 +341,7 @@ h2 {
   height: 15px;
   left:5px;
   top:57px;
-  background-position: -5px -36px;
+  background-position: -30px -111px;;
   position: absolute;
   background-image: url("../img/sprite.png");
 }
@@ -352,7 +353,7 @@ h2 {
   height: 15px;
   left:5px;
   top:57px;
-  background-position: -5px -61px;
+  background-position: -30px -186px;
   position: absolute;
   background-image: url("../img/sprite.png");
 }
@@ -615,7 +616,59 @@ background: #d6ae2c;
 }
 .map-adress{
     background: white;
-    width: 240px;
+    height: 240px;
 }
 
+.read-us{
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 205px;
+    padding-top: 11px;
+    padding-bottom:11px;
+    border-radius: 5px;
+    color: white;
+    background: #fb565a;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center; 
+}
 
+.read-us:hover{
+    background: #d6494d;
+}
+
+.social-btn{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: top;
+    background: #e1e1e1;
+    font-size: 0px;
+    position: relative;
+    
+}
+
+.social-btn::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    left:50%;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    transform:translate(-50% -50%);
+}
+
+.social-btn-vk::before{
+    width: 26px;
+    height: 15px;
+    background-position: -30px -343px;
+}
+
+.social-btn-fb{
+    
+    background-position: -30px -261px;
+}
+
+.social-btn-inst{
+   background-position: -30px -30px;
+}
