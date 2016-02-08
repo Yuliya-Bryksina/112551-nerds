@@ -147,6 +147,10 @@ h2 {
     margin-right: 20px;
 }
 
+.we-from p{
+    margin-bottom: 0px;
+}
+
 .logo{
     width: 240px;
     float: right;
@@ -164,7 +168,7 @@ h2 {
 }
 
 .block-top {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .block-bottom{
@@ -295,6 +299,10 @@ h2 {
 
 .main-footer{
     margin-top: 70px;
+    padding-bottom: 75px;
+}
+.footer-info p{
+    margin-bottom: 0px;
 }
 
 .main-navigation ul{
@@ -617,6 +625,12 @@ background: #d6ae2c;
 .map-adress{
     background: white;
     height: 240px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.map-adress p{
+    font-size: 16px;
 }
 
 .read-us{
@@ -645,6 +659,8 @@ background: #d6ae2c;
     background: #e1e1e1;
     font-size: 0px;
     position: relative;
+    border-radius:50%;
+    margin-right:25px;
     
 }
 
@@ -655,7 +671,8 @@ background: #d6ae2c;
     left:50%;
     background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
-    transform:translate(-50% -50%);
+    transform:translate(-50%, -50%);
+
 }
 
 .social-btn-vk::before{
@@ -664,11 +681,39 @@ background: #d6ae2c;
     background-position: -30px -343px;
 }
 
-.social-btn-fb{
-    
+.social-btn-fb::before{
+    width: 12px;
+    height: 22px;
     background-position: -30px -261px;
 }
 
-.social-btn-inst{
-   background-position: -30px -30px;
+.social-btn-inst::before{
+    width: 21px;
+    height: 21px;
+    background-position: -30px -30px;
+}
+
+.footer-social a:last-child{
+margin-right: 0px;
+}
+
+.social-btn-vk:hover{
+    background: #fb565a;
+}
+
+.social-btn-fb:hover{
+    background: #fb565a;
+}
+
+.social-btn-inst:hover{
+    background: #fb565a;
+}
+
+.friend-class{
+    font-size: 36px; 
+}
+
+.name{
+    text-transform: uppercase;
+    font-weight: 700;
 }
