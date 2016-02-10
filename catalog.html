@@ -42,48 +42,50 @@
 				<div class="filters">
 					<form class="form-filters">
 						<div class="range-filter">
-						<h2>Стоимость:</h2>
-							<div class="price-controls">
-				                от <input class="min-price" type="text" value="0">
-				                до <input class="max-price" type="text" value="15 000">
-	           				</div>
-	           				<div class="range-controls">
-		           				<div class="toggle min-toggle"></div>
-		                		<div class="toggle max-toggle"></div>
-		                		<div class="scale"></div>
-		                	</div>
-						</div>
+							<h2>Стоимость</h2>
+					        <div class="range-controls">
+					          	<div class="scale">
+					           		 <div class="bar"></div>
+					          	</div>
+					         	<div class="toggle toggle-min"></div>
+					         	<div class="toggle toggle-max"></div>
+					        </div>
+					        <div class="price-controls">
+					          	<label class="min-price">от <input name="min-price" type="text" value="0"></label>
+					         	<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+					        </div>
+					    </div>
 						<div class="features-filter">
 							<h2>Сетка:</h2>
 							<div class="input-filter">
-								<input id="for-adaptive" type="radio" name="net-category"><label for="for-adaptive">Адаптивная</label>
+								<input id="for-adaptive" type="radio" name="net-category"><label for="for-adaptive"><span class="radio_btn"></span>Адаптивная</label>
 							</div>
 							<div class="input-filter">
-								<input id="for-fixed" type="radio" name="net-category"><label for="for-fixed">Фиксированная</label>
+								<input id="for-fixed" type="radio" name="net-category"><label for="for-fixed"><span class="radio_btn"></span>Фиксированная</label>
 							</div>
 							<div class="input-filter">
-								<input id="for-rubber" type="radio" name="net-category"><label for="for-rubber">Резиновая</label>
+								<input id="for-rubber" type="radio" name="net-category"><label for="for-rubber"><span class="radio_btn"></span>Резиновая</label>
 							</div>	
 						</div>
 						<div class="features-filter">
 							<h2>Особенности:</h2>
 							<div class="input-filter">
-								<input id="for-slider" type="checkbox"><label for="for-slider">Слайдер</label>
+								<input id="for-slider" type="checkbox"><label for="for-slider"><span class="check_btn"></span>Слайдер</label>
 							</div>
 							<div class="input-filter">
-								<input id="for-block" type="checkbox"><label for="for-block">Блок преимуществ</label>
+								<input id="for-block" type="checkbox"><label for="for-block"><span class="check_btn"></span>Блок преимуществ</label>
 							</div>
 							<div class="input-filter">
-								<input id="for-news" type="checkbox"><label for="for-news">Новости</label>
+								<input id="for-news" type="checkbox"><label for="for-news"><span class="check_btn"></span>Новости</label>
 							</div>
 							<div class="input-filter">
-								<input id="for-gallery" type="checkbox"><label for="for-gallery">Галерея</label>
+								<input id="for-gallery" type="checkbox"><label for="for-gallery"><span class="check_btn"></span>Галерея</label>
 							</div>
 							<div class="input-filter">
-								<input id="for-basket" type="checkbox"><label for="for-basket">Корзина</label>
+								<input id="for-basket" type="checkbox"><label for="for-basket"><span class="check_btn"></span>Корзина</label>
 							</div>
 						</div>
-						<button type="submit">Показать</button>
+						<button class="show" type="submit">Показать</button>
 					</form>
 				</div>
 				<div class="content">

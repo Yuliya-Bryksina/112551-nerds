@@ -74,6 +74,35 @@ body {
     background-position: -20px -170px;
 }
 
+.sprite3 {
+    background-image: url("../img/sprite3.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite3-check {
+    width: 27px;
+    height: 23px;
+    background-position: -20px -20px;
+}
+
+.sprite3-check0 {
+    width: 23px;
+    height: 23px;
+    background-position: -20px -83px;
+}
+
+.sprite3-radio {
+    width: 25px;
+    height: 25px;
+    background-position: -20px -146px;
+}
+
+.sprite3-radio0 {
+    width: 25px;
+    height: 25px;
+    background-position: -20px -211px;
+}
 
 
 h1 {
@@ -585,14 +614,15 @@ input[type="radio"]#SlideThree-id:checked ~ .slider-container .image-slide-thrid
     font-size: 36px;
 }
 /*Скрываем инпуты*/
-input{
+.header-slider input{
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0;
+    opacity: 1;
     width: 1;
     height: 1;
 }
+
 .slider-nav{
     position:absolute;
     bottom:95px;
@@ -1047,4 +1077,175 @@ opacity: 0.3;
     top:0px;
     left:36px;
     position: absolute;
+}
+
+#for-adaptive:checked ~  label[for="for-adaptive"] .radio_btn,
+#for-fixed:checked ~ label[for="for-fixed"] .radio_btn,
+#for-rubber:checked ~  label[for="for-rubber"] .radio_btn{ 
+     background:url(../img/sprite3.png);
+      background-position: -20px -146px;
+      cursor: pointer;
+      vertical-align: middle;
+}
+
+
+.radio_btn{
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background:url(../img/sprite3.png);
+    background-position: -20px -211px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+input[type="checkbox"] + label span  {
+    width: 27px;
+    height: 23px;
+    display:inline-block;
+    vertical-align:middle;
+    background:url(../img/sprite3.png);
+    background-position: -20px -83px;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(../img/sprite3.png);
+    background-position: -20px -20px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+.input-filter label{
+    padding: 0px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    display: inline-block;
+
+}
+.input-filter label span{
+    padding-right: 10px;
+}
+
+.input-filter label[for="for-rubber"]{
+    padding-bottom: 0px;
+}
+
+.input-filter label[for="for-basket"]{
+    padding-bottom: 0px;
+}
+
+.features-filter h2{
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.show{
+    width: 155px;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background: #f1f1f1;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 58px;
+}
+
+.show:hover{
+background: #e5e5e5;
+}
+.show:active{
+    background: #d5d5d5;
+     box-shadow: inset 0px 2px 2px #b5b5b5;
+     border: 0;
+}
+
+.range-filter {
+  width: 240px;
+  
+  text-transform: uppercase; 
+}
+
+.range-controls {
+  position: relative;
+  height: 41px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 145px;
+}
+
+.price-controls {
+  font-size: 0;
+}
+
+.price-controls label {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+}
+
+.price-controls input {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  width: 60px;
+  padding: 8px 10px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #f1f1f1;
+  margin-left: 10px;
+
+
+}
+
+.max-price {
+  text-align: right;
 }
