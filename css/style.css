@@ -287,13 +287,6 @@ h2 {
     width: 100%;
     height: 420px;
 }
-    
-.top-map{
-    margin-top: -420px;
-    position: relative;
-    padding-top: 90px;
-    width: 250px;
-}
 
 .footer-social{
     width: 240px;
@@ -815,11 +808,23 @@ background: #c09b24;
 .how-work span{
     text-transform: uppercase;
 }
+
+.container-for-map{
+    margin-top: -428px;
+    height: 420px;
+    padding-top: 88px;
+}
+
 .map-adress{
     background: white;
-    height: 240px;
+    min-height: 240px;
     padding-left: 20px;
     padding-right: 20px;
+    max-height: 260px;
+    overflow:hidden;
+    position: relative;
+    padding-top: 28px;
+    width: 250px;
 }
 
 .map-adress p{
