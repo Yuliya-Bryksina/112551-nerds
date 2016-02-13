@@ -1503,8 +1503,8 @@ background-color: #d6494d;
 }
 .send:active{
    background: #b63538;
-border-top: 2px solid #9b2d30;
-outline: none;
+   box-shadow: inset 0 5px 0 #9b2d30;
+   outline: none;
 
  }
 
