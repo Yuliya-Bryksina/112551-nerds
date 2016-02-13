@@ -1406,6 +1406,21 @@ background: #e5e5e5;
     border-radius: 5px;
 }
 
+.icon-user::-webkit-input-placeholder {color:black;}
+.icon-user::-moz-placeholder{color:black;}/* Firefox 19+ */
+.icon-user:-moz-placeholder{color:black;}/* Firefox 18- */
+.icon-user:-ms-input-placeholder{color:black;}
+
+.icon-email::-webkit-input-placeholder {color:black;}
+.icon-email::-moz-placeholder{color:black;}/* Firefox 19+ */
+.icon-email:-moz-placeholder{color:black;}/* Firefox 18- */
+.icon-email:-ms-input-placeholder{color:black;}
+
+.icon-text::-webkit-input-placeholder {color:black;}
+.icon-text::-moz-placeholder{color:black;}/* Firefox 19+ */
+.icon-text:-moz-placeholder{color:black;}/* Firefox 18- */
+.icon-text:-ms-input-placeholder{color:black;}
+
 .icon-email{
     width: 186px;
     height: 38px;
