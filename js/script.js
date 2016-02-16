@@ -29,7 +29,7 @@
 		     form.addEventListener("submit", function(event) {
 		        if (!names.value || !email.value) {
 	         event.preventDefault();
-	         console.log("Нужно ввести логин и пароль"); 
+	         console.log("Нужно ввести имя и email"); 
 		    } else {
          	 localStorage.setItem("names", names.value);
          	}
@@ -41,5 +41,5 @@
            				 popup.classList.remove("modal-content-show");
           			}
       			}
-      		});
+      	});
        	
