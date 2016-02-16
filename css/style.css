@@ -1327,14 +1327,26 @@ background: #e5e5e5;
     position: absolute;
     top: 120px;
     left: 50%;
-
+    display: none;
     width: 462px;
     padding: 50px 85px;
     background: white;
     color: black;
     transform:translateX(-50%);
     box-shadow: 0 30px 70px 10px #283136;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+
+.modal-content-show {
+  display: block;
+  animation-name: zoomInDown;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .modal-content-close{
@@ -1541,3 +1553,24 @@ border-radius: 5px;
 border:2px solid #56bffb;
 border-radius: 5px; 
 }
+
+@keyframes zoomInDown {
+  from {
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+.zoomInDown {
+  animation-name: zoomInDown;
+
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
