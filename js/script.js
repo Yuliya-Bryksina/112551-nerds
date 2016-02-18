@@ -5,7 +5,9 @@
     		var names = popup.querySelector("[name=names]");
     		var form = popup.querySelector("form");
  			var email = popup.querySelector("[name=email]");
+      var text = popup.querySelector("[name=letter]");
  			var storage = localStorage.getItem("names");
+      
 
     		link.addEventListener("click", function(event) {
            		 event.preventDefault();
@@ -27,8 +29,17 @@
 		    }); 
 
 		     form.addEventListener("submit", function(event) {
-		        if (!names.value || !email.value) {
+		        if (!names.value || !email.value||!text.value) {
 	         event.preventDefault();
+           if(!names.value){
+            names.classList.add("input-shake");
+          } if(!email.value){
+            email.classList.add("input-shake");
+          }
+          if(!text.value) {
+             text.classList.add("input-shake");
+          }
+
 	         console.log("Нужно ввести имя и email"); 
 		    } else {
          	 localStorage.setItem("names", names.value);
@@ -42,4 +53,3 @@
           			}
       			}
       	});
-       	
