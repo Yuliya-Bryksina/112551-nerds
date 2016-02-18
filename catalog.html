@@ -58,12 +58,12 @@
 						<div class="features-filter">
 							<h2>Сетка:</h2>
 							<div class="input-filter">
-								<input id="for-adaptive" type="radio" name="net-category"><label for="for-adaptive"><span class="radio_btn"></span>Адаптивная</label>
+								<input id="for-adaptive" type="radio" name="net-category"  checked><label for="for-adaptive"><span class="radio_btn"></span>Адаптивная</label>
 							</div>
 							<div class="input-filter">
 								<input id="for-fixed" type="radio" name="net-category"><label for="for-fixed"><span class="radio_btn"></span>Фиксированная</label>
 							</div>
-							<div class="input-filter">
+							<div class="input-filter rubber-div">
 								<input id="for-rubber" type="radio" name="net-category"><label for="for-rubber"><span class="radio_btn"></span>Резиновая</label>
 							</div>	
 						</div>
@@ -81,7 +81,7 @@
 							<div class="input-filter">
 								<input id="for-gallery" type="checkbox"><label for="for-gallery"><span class="check_btn"></span>Галерея</label>
 							</div>
-							<div class="input-filter">
+							<div class="input-filter basket-div">
 								<input id="for-basket" type="checkbox"><label for="for-basket"><span class="check_btn"></span>Корзина</label>
 							</div>
 						</div>
@@ -97,7 +97,7 @@
 								<li><a href="#">По функционалу</a></li>
 							</ul>
 							<div class="sort-button">
-								<a class="down" href="#"></a>
+								<a class="down active-down" href="#"></a>
 								<a class="top" href="#"></a>
 							</div>
 					</div>
@@ -234,16 +234,13 @@
       		<button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
       		<form class="login-form" action="#" metod="post">
       			<div class="name-modal effect-modal">
-	      			<span class="label-modal">Ваше имя:</span>
-		      		<input class="icon-user" type="text" name="names" placeholder="Представьтесь, пожалуйста">
+		      		<label for="name-id">Ваше имя:</label><input id="name-id" class="icon-user" type="text" name="names" placeholder="Представьтесь, пожалуйста">
 	      		</div>
 	      		<div class="email effect-modal">
-		      		<span class="label-modal">Ваш e-mail:</span>	
-		      		<input class="icon-email" type="email"  name="email" placeholder="Для отправки ответа">
+		      		<label for="email">Ваш e-mail:</label><input id="email" class="icon-email" type="email"  name="email" placeholder="Для отправки ответа">
 	      		</div>
 	      		<div class="text-letter-form effect-modal">
-		      		<span class="label-modal">Текст письма:</span>
-		      		<textarea class="icon-text" type="text" name="letter" placeholder="В свободной форме"></textarea>
+		      		<label for="label-modal">Текст письма:</label><textarea id="label-modal" class="icon-text" type="text" name="letter" placeholder="В свободной форме"></textarea>
 		      	</div>
 		      	<button class="send" type="submit">Отправить</button>
       		</form>

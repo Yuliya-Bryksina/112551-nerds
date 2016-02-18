@@ -418,13 +418,16 @@ h2 {
     text-decoration: none;
     background: #f1f1f1;
     margin:0px;
-    margin-right: 10px;
     display: inline-block;
     color: black;
     text-transform: uppercase;
     text-align: center;
     border-radius: 3px;
     line-height: 38px;
+}
+
+.paginator a:not(:last-child) {
+    margin-right: 10px;
 }
 
 .paginator a:hover{
@@ -969,6 +972,12 @@ background-repeat: no-repeat;
 opacity: 0.3;
 
 }
+.active-down{
+    width: 11px;
+    height: 10px;
+    background-position: -20px -120px;
+    opacity: 1;
+}
 
 .down:hover{
     background-image: url("../img/sprite2.png");
@@ -1184,11 +1193,14 @@ input[type="radio"] {
     display:none;
 }
 
+.input-filter{
+    margin-bottom: 15px;
+}
+
 .input-filter label{
     padding: 0px;
     font-size: 16px;
     line-height: 20px;
-    padding-bottom: 15px;
     display: inline-block;
 
 }
@@ -1196,12 +1208,12 @@ input[type="radio"] {
     padding-right: 10px;
 }
 
-.input-filter label[for="for-rubber"]{
-    padding-bottom: 0px;
+.rubber-div{
+    margin-bottom: 0px;
 }
 
-.input-filter label[for="for-basket"]{
-    padding-bottom: 0px;
+.basket-div{
+    margin-bottom: 0px;
 }
 
 .features-filter h2{
@@ -1359,8 +1371,8 @@ background: #e5e5e5;
     outline: 0;
     cursor: pointer;
     position: absolute;
-    top:2px;
-    right: 10px;
+    top:5px;
+    right: 5px;
 }
 
 .modal-content-close::before,
