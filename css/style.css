@@ -130,13 +130,13 @@ h2 {
 .container{
     width: 880px;
     margin: 0 auto;
-    padding: 0px 10px 0px 10px;
+    padding: 3px 10px 0px 10px;
 }
 
 .main-image{
     width: 140px;
     float: left;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .main-navigation{
@@ -182,8 +182,10 @@ h2 {
 
 .features-blocks h3{
     margin: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 26px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 .first-block{
@@ -205,8 +207,8 @@ h2 {
 }
 
 .about-us{
-    padding-top: 60px;
-    padding-bottom: 75px;
+    padding-top: 49px;
+    padding-bottom: 70px;
     margin-bottom: 45px;
     border-bottom: 2px solid #eeeeee;
 }
@@ -238,7 +240,7 @@ h2 {
 }
 
 .block-top {
-    margin-bottom: 45px;
+    margin-bottom: 28px;
 }
 
 .nets-class:nth-child(1){
@@ -249,12 +251,14 @@ h2 {
 
 .nets-class:nth-child(2){
    width: calc(100% / 3); 
-   text-align: center;  
+   text-align: center;
+   padding-right: 17px;  
 }
 
 .nets-class:nth-child(3){
    width: calc(100% / 3); 
    text-align: right;
+   padding-right: 17px;
    
 }
 
@@ -275,14 +279,15 @@ h2 {
 }
 
 .links{
-    padding-bottom: 35px;
+    padding-bottom: 30px;
     border-bottom: 2px solid #eeeeee;
     display: table; width: 100%
 }
 
 .map{
     height: 417px;
-    margin-top: 90px;
+    margin-top: 86px;
+    background: (url)
 }
 
 .google-maps{
@@ -579,7 +584,9 @@ img {
 .slide-property h2{
     max-width: 480px;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
+    padding-top: 28px;
+    line-height: 1;
 }
 
 .shot-banner{
@@ -588,7 +595,7 @@ img {
 
 .main-header{
     background: #eeeeee;
-    margin-bottom: 80px;
+    margin-bottom: 74px;
 }
 
 input[type="radio"]#SlideOne-id:checked ~ .slider-container .image-slide-first,
@@ -601,7 +608,7 @@ input[type="radio"]#SlideThree-id:checked ~ .slider-container .image-slide-thrid
     font-size: 16px;
     padding: 0;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     width: 480px;
         font-weight: 500;
 }
@@ -708,7 +715,7 @@ background: #efc84a;
 .features-blocks p{
     font-size: 15px;
     margin: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 
 }
 .features-blocks .red-btn:hover{
@@ -744,7 +751,7 @@ background: #c09b24;
 .we-from h1{
     margin: 0px;
     margin-top: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 
 }
 
@@ -784,14 +791,14 @@ background: #c09b24;
 .how-work ul{
     padding:0;
     margin: 0;
-    margin-top:30px; 
+    margin-top:22px; 
     font-weight: 500;
 }
 
 .what-make ul{
     padding:0;
     margin: 0;
-     margin-top:30px; 
+     margin-top:22px; 
      font-weight: 500;
 
 }
@@ -811,7 +818,7 @@ background: #c09b24;
 }
 
 .list-class:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 22px;
 }
 
 .list-class::before{
