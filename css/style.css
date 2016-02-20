@@ -2,7 +2,7 @@ body {
 	font-size: 16px; 
 	line-height: 22px;
     color: #283136;
-    font-weight: normal;
+    font-weight: 500;
     font-family: "Roboto", Arial, sans-serif;
     min-width: 900px;
     
@@ -265,6 +265,8 @@ h2 {
 
 .link-effects{
     opacity: 0.2;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .link-effects:hover{
@@ -285,13 +287,14 @@ h2 {
 
 .google-maps{
     width: 100%;
-    height: 420px;
+    height: 417px;
 }
 
 .footer-social{
     width: 240px;
     float: left;
     position: relative;
+    font-size: 0px;
 }
 
 .footer-info{
@@ -309,6 +312,12 @@ h2 {
     margin-right: 60px;
 }
 
+img {
+  max-width:100%;
+  height: auto;
+  display: block;
+}
+
 .content{
     width: 580px;
     float: right;
@@ -323,7 +332,7 @@ h2 {
     width: 105px;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .sort a{
@@ -494,6 +503,7 @@ h2 {
   width: 15px;
   height: 15px;
   left:0px;
+  bottom: 1px;
   background-position: -30px -111px;;
   position: absolute;
   background-image: url("../img/sprite.png");
@@ -774,22 +784,36 @@ background: #c09b24;
 .how-work ul{
     padding:0;
     margin: 0;
-
+    margin-top:30px; 
+    font-weight: 500;
 }
 
 .what-make ul{
     padding:0;
     margin: 0;
+     margin-top:30px; 
+     font-weight: 500;
 
+}
+
+.headline{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    line-height: 22px;
+    font-weight: 500; 
 }
 
 .list-class{
     position: relative;
     list-style: none;
-    padding-left:35px;
-    margin-top: 30px;
-
+    padding-left:35px; 
 }
+
+.list-class:not(:first-child) {
+    margin-top: 30px;
+}
+
 .list-class::before{
     content: "";
 
@@ -815,7 +839,7 @@ background: #c09b24;
 
 .container-for-map{
     margin-top: -428px;
-    height: 420px;
+    height: 417px;
     padding-top: 88px;
 }
 
@@ -824,7 +848,7 @@ background: #c09b24;
     min-height: 240px;
     padding-left: 20px;
     padding-right: 20px;
-    max-height: 260px;
+    max-height: 268px;
     overflow:hidden;
     position: relative;
     padding-top: 28px;
@@ -836,10 +860,12 @@ background: #c09b24;
     width:  210px;
     margin: 0px;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .phone{
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 
@@ -960,6 +986,7 @@ margin-right: 0px;
 
 .range-filter h2{
     margin-top: 0px;
+    font-weight: 700;
 }
 
 .down{
@@ -1220,6 +1247,8 @@ input[type="radio"] {
     margin: 0px;
     padding-top: 50px;
     padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .show{
@@ -1246,7 +1275,7 @@ background: #e5e5e5;
 
 .range-filter {
   width: 240px;
-  
+ 
   text-transform: uppercase; 
 }
 
