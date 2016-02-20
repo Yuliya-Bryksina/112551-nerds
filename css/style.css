@@ -130,7 +130,7 @@ h2 {
 .container{
     width: 880px;
     margin: 0 auto;
-    padding: 3px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 .main-image{
@@ -156,9 +156,12 @@ h2 {
     margin-top: 60px;
 }
 
+.top-navcat{
+       margin-bottom: 61px;
+
+}
 .top-navigation{
     margin-bottom: 45px;
-
 }
 
 .slide-property{
@@ -246,6 +249,7 @@ h2 {
 .nets-class:nth-child(1){
     width: calc(100% / 3);
     text-align: left;
+    padding-left: 12px;
 
 }
 
@@ -287,12 +291,21 @@ h2 {
 .map{
     height: 417px;
     margin-top: 86px;
-    background: (url)
+    background: url("../img/map");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 880px 417px;
+
+}
+
+.map-cataloque{
+    margin-top: 80px;
 }
 
 .google-maps{
     width: 100%;
     height: 417px;
+    display: block;
 }
 
 .footer-social{
@@ -324,13 +337,14 @@ img {
 }
 
 .content{
-    width: 580px;
-    float: right;
+    width: 560px;
+    float: left;
+    padding-left:20px;
 }
 
 .sort-form{
     margin-bottom: 20px;
-
+    
 }
 .sort-word{
     float: left;
@@ -393,11 +407,12 @@ img {
 }
 
 .features-catalogue{
-    float: left;k
+    float: left;
     width: 240px;
     max-height: 270px;
     margin-right: 80px;
     position: relative;
+ 
 }
 
 .features-catalogue:hover .description{
@@ -415,12 +430,9 @@ img {
 
 .features-catalogue:nth-child(2n) {
   margin-right: 0;
+  margin-left:0;
 }
 
-.paginator{
-    margin-bottom: 80px;
-    
-}
 
 .paginator a{
     height: 38px;
@@ -440,6 +452,10 @@ img {
     line-height: 38px;
 }
 
+.paginator-next{
+    width: 110px;
+}
+
 .paginator a:not(:last-child) {
     margin-right: 10px;
 }
@@ -455,17 +471,21 @@ img {
     }
 
 .main-footer{
-    margin-top: 70px;
+    margin-top: 80px;
     padding-bottom: 75px;
 }
 .footer-info p{
     margin-bottom: 0px;
+    margin-top: 0px;
+    margin-top: 18px;
+    padding-left: 20px;
 }
 
 .main-navigation ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    padding-top: 60px;
 }
 
 .main-navigation li {
@@ -481,7 +501,7 @@ img {
 .main-navigation a{
     text-decoration: none;
     display: block;
-    margin-top: 60px;
+    
     color: black;
 
 
@@ -584,7 +604,7 @@ img {
 .slide-property h2{
     max-width: 480px;
     margin: 0px;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
     padding-top: 28px;
     line-height: 1;
 }
@@ -593,9 +613,14 @@ img {
     width: 320px;
 }
 
+.header-cataloque{
+    background: #eeeeee;
+    margin-bottom: 72px;
+}
+
 .main-header{
     background: #eeeeee;
-    margin-bottom: 74px;
+    margin-bottom: 78px;
 }
 
 input[type="radio"]#SlideOne-id:checked ~ .slider-container .image-slide-first,
@@ -655,7 +680,7 @@ input[type="radio"]#SlideThree-id:checked ~ .slider-container .image-slide-thrid
     left:50%;
     width:200px;
     height:10px;
-    margin-left:-100px;
+    margin-left:-130px;
     text-align:center;
     z-index:1000;
 }
@@ -745,7 +770,7 @@ background: #c09b24;
 }
 
 .img-nerds{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .we-from h1{
@@ -788,6 +813,12 @@ background: #c09b24;
     display: inline-block;
     text-align: center;
 }
+
+.img-nerds img{
+    padding-left: 30px;
+        padding-top: 10px;
+}
+
 .how-work ul{
     padding:0;
     margin: 0;
@@ -845,14 +876,14 @@ background: #c09b24;
 }
 
 .container-for-map{
-    margin-top: -428px;
+    margin-top: -417px;
     height: 417px;
     padding-top: 88px;
 }
 
 .map-adress{
     background: white;
-    min-height: 240px;
+    min-height: 212px;
     padding-left: 20px;
     padding-right: 20px;
     max-height: 268px;
@@ -866,12 +897,12 @@ background: #c09b24;
     font-size: 16px;
     width:  210px;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     font-weight: 400;
 }
 
 .phone{
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     font-weight: 400;
 }
 
@@ -879,9 +910,9 @@ background: #c09b24;
 .read-us{
     text-decoration: none;
     text-transform: uppercase;
-    width: 205px;
-    padding-top: 11px;
-    padding-bottom:11px;
+    width: 208px;
+    padding-top: 8px;
+    padding-bottom:8px;
     border-radius: 5px;
     color: white;
     background: #fb565a;
@@ -969,13 +1000,14 @@ margin-right: 0px;
 }
 
 .friend-class{
-    font-size: 36px; 
+    font-size: 36px;
+    padding-left: 20px; 
 }
 
 .name{
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .header-cataloque{
@@ -987,13 +1019,15 @@ margin-right: 0px;
     text-transform: uppercase;
     line-height: 52px;
     text-align: center;
-    padding-left: 110px;
+    padding-left: 100px;
     padding-right: 110px;  
 }
 
 .range-filter h2{
     margin-top: 0px;
     font-weight: 700;
+    margin: 0px;
+    margin-bottom: 12px;
 }
 
 .down{
@@ -1252,8 +1286,8 @@ input[type="radio"] {
 
 .features-filter h2{
     margin: 0px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 45px;
+    padding-bottom: 15px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -1268,7 +1302,7 @@ input[type="radio"] {
     background: #f1f1f1;
     border: 0px;
     border-radius: 5px;
-    margin-top: 58px;
+    margin-top: 62px;
 }
 
 .show:hover{
@@ -1280,6 +1314,9 @@ background: #e5e5e5;
      border: 0;
 }
 
+.form-filters{
+    
+}
 .range-filter {
   width: 240px;
  
@@ -1342,7 +1379,7 @@ background: #e5e5e5;
 .price-controls input {
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
-  width: 60px;
+  width: 57px;
   padding: 8px 10px;
   text-align: center;
   color: #283136;
@@ -1368,7 +1405,7 @@ background: #e5e5e5;
 
 .main-navigation .active-link span{
     display: block;
-    margin-top: 60px;
+    
 }
 
 .modal-content{
