@@ -527,6 +527,7 @@ img {
     background-position: -30px -111px;
     position: absolute;
     background-image: url("../img/sprite.png");
+    opacity: 0.3;
 }
 
 .basket:hover::before {
@@ -537,6 +538,7 @@ img {
     background-position: -30px -186px;
     position: absolute;
     background-image: url("../img/sprite.png");
+    opacity: 1;
 }
 
 .basket:active::before {
